@@ -1,0 +1,25 @@
+#top-placeholder {
+    background-color: black;
+}
+
+#button-placeholder {
+    text-align: right;
+    background-color: beige;
+}
+
+#first-section {
+    text-align: center;
+}
+
+.first-div {
+    text-align: center;
+}
+
+.figure {
+    text-align: center;
+}
+
+.spiderverse-characters {
+    height: 400px;
+    width: 400px;
+}
