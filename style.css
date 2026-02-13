@@ -1,20 +1,74 @@
-#top-placeholder {
-    background-color: beige;
+/* TOP SECTION */
+#top-section {
+    background: linear-gradient(to bottom, rgb(151, 88, 151), purple);
     display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Change from center to stretch */
+    min-height: 60px; /* or whatever height you want */
+}
+/* END OF TOP SECTION */
+
+/* START OF WEBSITE HEADING DESC */
+#website-heading-placeholder {
+    display: flex;
+    align-items: center;
+    flex: 1;
 }
 
-.navigation-button {
-    text-align: right;
+#website-heading { 
+    color: rgb(99, 12, 170);
+}
+
+#karl-profpic {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+/* END OF WEBSITE HEADING DESC */
+
+
+/* START OF WELCOME MESSAGE DIV */
+#welcome-message-div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-message {
+    font-family: 'Times New Roman', Times, serif;
+}
+/* END OF WELCOME MESSAGE DIV */
+
+
+/* START OF BUTTON AND LABEL PLACEHOLDER */
+#btn-and-label-placeholder {
+    flex: 1;
 }
 
 #button-placeholder {
     align-content: center;
+    text-align: center;
 }
 
-#inside-top-placeholder {
-    background-color: blue;
+#nav-btn-label {
+    align-content: center;
+    text-align: center;
+    margin: 0px;
 }
 
+.navigation-button {
+    border-radius: 50;
+    padding: 10px;
+    min-width: 80px;
+    background: linear-gradient(to left, rgb(17, 105, 219), lightblue);
+}
+/* END OF BUTTON AND LABEL PLACEHOLDER */
+
+
+/* START OF FIRST SECTION */
 #first-section {
     text-align: center;
     background-color: aqua;
@@ -33,6 +87,10 @@
     width: 400px;
 }
 
+/* END OF FIRST SECTION */
+
+
+/* START OF SECOND SECTION */
 #second-section {
     height: 100vh;
     text-align: center;
@@ -55,3 +113,4 @@
 .second-h2-of-last-div {
     background-color: aquamarine;
 }
+/* END OF SECOND SECTION */
