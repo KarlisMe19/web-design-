@@ -98,19 +98,17 @@
 }
 
 #second-to-last {
-    background-color: bisque;
     text-align: center;
 }
 
 #last-div {
-    background-color: rgb(165, 32, 32);
     text-align: center;
 }
 
 .first-h2-of-last-div{
-    background-color: rgb(24, 221, 247);
+    align-content: center;
 }
 .second-h2-of-last-div {
-    background-color: aquamarine;
+    align-content: center;
 }
 /* END OF SECOND SECTION */
