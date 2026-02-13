@@ -1,14 +1,23 @@
 #top-placeholder {
-    background-color: black;
+    background-color: beige;
+    display: flex;
+}
+
+.navigation-button {
+    text-align: right;
 }
 
 #button-placeholder {
-    text-align: right;
-    background-color: beige;
+    align-content: center;
+}
+
+#inside-top-placeholder {
+    background-color: blue;
 }
 
 #first-section {
     text-align: center;
+    background-color: aqua;
 }
 
 .first-div {
@@ -22,4 +31,27 @@
 .spiderverse-characters {
     height: 400px;
     width: 400px;
+}
+
+#second-section {
+    height: 100vh;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#second-to-last {
+    background-color: bisque;
+    text-align: center;
+}
+
+#last-div {
+    background-color: rgb(165, 32, 32);
+    text-align: center;
+}
+
+.first-h2-of-last-div{
+    background-color: rgb(24, 221, 247);
+}
+.second-h2-of-last-div {
+    background-color: aquamarine;
 }
