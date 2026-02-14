@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Layout with Background</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <button>Profile</button>
+        <button>Gallery</button>
+        <button>Personality</button>
+        <button>Contact</button>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="profile-section">
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=300" alt="Profile" class="profile-image">
+                <div class="profile-info">
+                    <h1>Your Name Here</h1>
+                    <p>A striving programmer exploring the field of programming with a strong principle of consistency and excellency. Describe yourself and your skills here.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Boxes -->
+        <div class="section-box" onclick="toggleSection(this)">
+            <h2>Personal Details</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Age: 25</li>
+                    <li>Location: City, Country</li>
+                    <li>Email: your.email@example.com</li>
+                    <li>Phone: +123 456 7890</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section-box" onclick="toggleSection(this)">
+            <h2>Education</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Bachelor's Degree in Computer Science - University Name (2020-2024)</li>
+                    <li>High School Diploma - School Name (2016-2020)</li>
+                    <li>Certifications: Python, Java, Web Development</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section-box" onclick="toggleSection(this)">
+            <h2>Skills</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Programming Languages: Python, Java, JavaScript, CSS</li>
+                    <li>Web Development: HTML, CSS, React, Node.js</li>
+                    <li>Database: MySQL, MongoDB</li>
+                    <li>Tools: Git, VS Code, Docker</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer Icons (Optional decorations) -->
+        <div class="footer-icons">
+            <img src="https://via.placeholder.com/60/ff6b6b/ffffff?text=Icon1" alt="Icon 1">
+            <img src="https://via.placeholder.com/60/4ecdc4/ffffff?text=Icon2" alt="Icon 2">
+            <img src="https://via.placeholder.com/60/ffe66d/ffffff?text=Icon3" alt="Icon 3">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
