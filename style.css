@@ -1,3 +1,11 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+/* START OF BODY */
 body {
     background-image: url("spiderverse wallpaper.jpg");
     background-size: cover;
@@ -7,6 +15,8 @@ body {
     margin: 0;
     padding: 0;
 }
+/* END OF BODY */
+
 
 /* TOP SECTION */
 #top-section {
@@ -17,6 +27,7 @@ body {
     min-height: 60px; /* or whatever height you want */
 }
 /* END OF TOP SECTION */
+
 
 /* START OF WEBSITE HEADING DESC */
 #website-heading-placeholder {
@@ -85,8 +96,32 @@ body {
 
 /* START OF FIRST SECTION */
 #first-section {
-    text-align: center;
-    background-color: aqua;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#characters-section {
+    background: rgba(217, 70, 239, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+#characters-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Change from center to stretch */
 }
 
 .first-div {
@@ -98,8 +133,9 @@ body {
 }
 
 .spiderverse-characters {
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
+    flex: 1
 }
 
 /* END OF FIRST SECTION */
@@ -109,7 +145,7 @@ body {
 #second-section {
     height: 100vh;
     text-align: center;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 #second-to-last {
