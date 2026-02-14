@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+body {
+    background-image: url("spiderverse wallpaper.jpg");
+    background-size: cover;
+    background-color: purple;
+    background-attachment: fixed;
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+>>>>>>> 0d45a36 (deleted web-design-)
 /* TOP SECTION */
 #top-section {
     background: linear-gradient(to bottom, rgb(151, 88, 151), purple);
@@ -16,7 +29,11 @@
 }
 
 #website-heading { 
+<<<<<<< HEAD
     color: rgb(99, 12, 170);
+=======
+    color: rgb(0, 0, 0);
+>>>>>>> 0d45a36 (deleted web-design-)
 }
 
 #karl-profpic {
@@ -65,6 +82,15 @@
     min-width: 80px;
     background: linear-gradient(to left, rgb(17, 105, 219), lightblue);
 }
+<<<<<<< HEAD
+=======
+
+.navigation-button:hover {
+    background: violet;
+    cursor: pointer;
+}
+
+>>>>>>> 0d45a36 (deleted web-design-)
 /* END OF BUTTON AND LABEL PLACEHOLDER */
 
 
@@ -92,7 +118,10 @@
 
 /* START OF SECOND SECTION */
 #second-section {
+<<<<<<< HEAD
     height: 100vh;
+=======
+>>>>>>> 0d45a36 (deleted web-design-)
     text-align: center;
     background-color: aquamarine;
 }
