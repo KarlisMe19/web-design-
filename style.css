@@ -65,6 +65,11 @@
     min-width: 80px;
     background: linear-gradient(to left, rgb(17, 105, 219), lightblue);
 }
+
+.navigation-button:hover {
+    background: violet;
+    cursor: pointer;
+}
 /* END OF BUTTON AND LABEL PLACEHOLDER */
 
 
