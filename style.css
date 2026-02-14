@@ -26,7 +26,7 @@ body {
 }
 
 #website-heading { 
-    color: rgb(0, 0, 0);
+    color: rgb(99, 12, 170);
 }
 
 #karl-profpic {
@@ -75,12 +75,6 @@ body {
     min-width: 80px;
     background: linear-gradient(to left, rgb(17, 105, 219), lightblue);
 }
-
-.navigation-button:hover {
-    background: violet;
-    cursor: pointer;
-}
-
 /* END OF BUTTON AND LABEL PLACEHOLDER */
 
 
@@ -108,6 +102,7 @@ body {
 
 /* START OF SECOND SECTION */
 #second-section {
+    height: 100vh;
     text-align: center;
     background-color: aquamarine;
 }
