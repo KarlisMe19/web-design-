@@ -141,6 +141,9 @@ figure {
     width: 200px;
     /* Remove flex: 1 */
     object-fit: cover;  /* Keeps aspect ratio */
+    border: solid;
+    padding: 20px;
+    background-image: url('spiderverse\ logo.jpg');
 }
 
 /* END OF FIRST SECTION */
