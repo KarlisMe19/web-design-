@@ -30,7 +30,8 @@ body {
 }
 
 #website-heading { 
-    color: rgb(99, 12, 170);
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #karl-profpic {
@@ -90,9 +91,8 @@ body {
 /* START OF FIRST SECTION */
 #first-section {
     max-width: 1500px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 40px 20px;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,7 +104,8 @@ figure {
 }
 
 #characters-section {
-    background: rgba(217, 70, 239, 0.95);
+    background-color: rgb(231, 76, 231);
+    background-attachment: fixed;
     backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 40px;
@@ -169,9 +170,14 @@ figcaption {
 
 /* START OF SECOND SECTION */
 #second-section {
-    height: 100vh;
+    max-width: 1500px;
+    align-items: center;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
+    padding: 20px;
 }
 
 #second-to-last {
@@ -189,3 +195,10 @@ figcaption {
     align-content: center;
 }
 /* END OF SECOND SECTION */
+
+#third-section {
+    background-color: purple;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
