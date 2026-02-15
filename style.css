@@ -106,6 +106,10 @@ body {
     /* background-color: blue; */
 }
 
+figure {
+    margin: 0;  /* Remove default figure margins */
+}
+
 #characters-section {
     background: rgba(217, 70, 239, 0.95);
     backdrop-filter: blur(10px);
@@ -118,11 +122,10 @@ body {
 
 #characters-div {
     display: flex;
+    justify-content: space-around;  /* Better spacing */
     align-items: center;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+    gap: 20px;  /* Add space between images */
+    flex-wrap: wrap;  /* Allow wrapping on small screens */
 }
 
 .first-div {
@@ -134,9 +137,10 @@ body {
 }
 
 .spiderverse-characters {
-    height: 200px;
+   height: 200px;
     width: 200px;
-    flex: 1
+    /* Remove flex: 1 */
+    object-fit: cover;  /* Keeps aspect ratio */
 }
 
 /* END OF FIRST SECTION */
