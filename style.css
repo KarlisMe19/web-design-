@@ -22,7 +22,8 @@
 .image-container {
     position: relative;
     display: inline-block;
-    background-color: black;
+    /* background-color: black; */
+    height: 100vh;
 }
 
 .main-image {
