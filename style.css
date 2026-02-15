@@ -11,10 +11,45 @@
 
 .box {
     width: 200px;
-    height: 100px;
+    height: 100vh;
     padding: 20px;
     background-color: blue;
     border: 2px solid black;
     text-align: center;
     align-items: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+}
+
+.main-image {
+    height: 100px;
+    width: 100px;
+}
+
+.popup-image {
+    position: absolute;
+    bottom: 100%;  /* Positions it above the main image */
+    left: 50%;
+    transform: translateX(-50%);  /*Centers it horizontally */
+    
+    width: 100px;  /* Adjust size */
+    height: 100px;
+    
+    opacity: 0;  /* Hidden by default */
+    visibility: hidden;
+    transition: opacity 1s ease, visibility 1s ease;
+    
+    /* border: 3px solid white; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+/* Show popup on hover */
+.image-container:hover .popup-image {
+    opacity: 1;
+    visibility: visible;
 }
