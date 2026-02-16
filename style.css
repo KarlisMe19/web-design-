@@ -7,17 +7,23 @@ body {
     font-family: Verdana;
     margin: 0;
     padding: 0;
+    margin-top: 100px;  /* ← NEW LINE */
 }
 /* END OF BODY */
 
 
 /* TOP SECTION */
 #top-section {
+    position: fixed;  /* ← ADD THIS */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;  /* ← ADD THIS */
     background: linear-gradient(to bottom, rgb(151, 88, 151), purple);
     display: flex;
     justify-content: space-between;
-    align-items: stretch; /* Change from center to stretch */
-    min-height: 60px; /* or whatever height you want */
+    align-items: stretch;
+    min-height: 60px;
 }
 /* END OF TOP SECTION */
 
@@ -61,11 +67,15 @@ body {
 /* START OF BUTTON AND LABEL PLACEHOLDER */
 #btn-and-label-placeholder {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #button-placeholder {
-    align-content: center;
-    text-align: center;
+    display: flex;
+    gap: 10px;
 }
 
 #nav-btn-label {
@@ -75,7 +85,7 @@ body {
 }
 
 .navigation-button {
-    border-radius: 50;
+    border-radius: 8px;
     padding: 10px;
     min-width: 80px;
     background: linear-gradient(to left, rgb(17, 105, 219), lightblue);
@@ -96,7 +106,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
 }
 
 figure {
@@ -151,7 +160,7 @@ figcaption {
     
     opacity: 0;  /* Hidden by default */
     visibility: hidden;
-    transition: opacity 0.1s ease, visibility 0.1s ease;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
     
     /* border: 3px solid white; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
