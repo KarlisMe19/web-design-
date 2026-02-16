@@ -11,6 +11,10 @@ body {
 }
 /* END OF BODY */
 
+a:link { color: black; }       /* Unvisited links */
+a:visited { color: black; }  /* Visited links */
+a:active { color: red; }      /* Links being clicked */
+a:hover { color: violet; }   /* Links on hover (varies) */
 
 /* TOP SECTION */
 #top-section {
