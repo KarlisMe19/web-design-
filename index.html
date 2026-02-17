@@ -9,9 +9,9 @@
 </head>
 <body>
     <div id = "floating-div">
-        <button class = "nav-btn" onclick="scrollToSection">First Section</button>
-        <button class = "nav-btn">Second Section</button>
-        <button class = "nav-btn">Third Section</button>
+        <button class = "nav-btn" onclick="scrollToSection('first-section')">First Section</button>
+        <button class = "nav-btn" onclick="scrollToSection('second-section')">Second Section</button>
+        <button class = "nav-btn" onclick="scrollToSection('third-section')">Third Section</button>
     </div>
     <!-- <div class="container">
         <div class="item">
@@ -24,17 +24,16 @@
     <div class="box">
     Hello World
     </div>
-    <div class="image-container">
+    <div id = "first-section" class="image-container">
         <img class = "main-image" src="miles morales" alt="Main image">
         <img src="miles morales figurine.png" alt="Popup" class="popup-image">
     </div>
-    <div class="gallery">
+    <div id = "second-section" class="gallery">
     <div class="image-container">
         <img src="miles morales" alt="Image 1" class="main-image">
         <img src="miles morales figurine.png" alt="Popup 1" class="popup-image">
     </div>
-    
-    <div class="image-container">
+    <div id = "third-section" class="image-container">
         <img src="gwen stacy.jpg" alt="Image 2" class="main-image">
         <img src="gwen stacy figurine.png" alt="Popup 2" class="popup-image">
     </div>
