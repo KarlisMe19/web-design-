@@ -1,5 +1,5 @@
 body {
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 #floating-div {
@@ -10,11 +10,15 @@ body {
     align-items: center;
     margin: 0px auto;
     right: 10px;
+    z-index: 1000;
+    padding: 10px;
 }
 
 .nav-btn {
     text-align: center;
     align-items: center;
+    height: 25px;
+    width: 125px;
 }
 
 /* Example: */
