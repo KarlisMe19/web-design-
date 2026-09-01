@@ -1,0 +1,17 @@
+.top-section {
+    background-color: skyblue;
+}
+
+.top-h1 {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.top-paragraph {
+    text-align: center;
+}
+
+.cat {
+    display: block;
+    margin: auto;
+}
