@@ -82,8 +82,7 @@ a:hover { color: violet; }   /* Links on hover (varies) */
     gap: 10px;
 }
 
-#nav-btn-label {
-    align-content: center;
+.nav-btn {
     text-align: center;
     margin: 0px;
 }
@@ -193,8 +192,9 @@ figcaption {
     padding: 20px;
 }
 
-#second-to-last {
-    text-align: center;
+.main-image {
+    height: 100px;
+    width: 100px;
 }
 
 #last-div {
