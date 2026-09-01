@@ -1,0 +1,93 @@
+body {
+    background-color: blue;
+}
+
+/* FIRST SECTION STARTS HERE*/
+.first-section { 
+    text-align: center;
+    background-color: white;
+}
+.video {
+    text-align: center;
+}
+
+.welcome-heading {
+    text-align: center;
+}
+
+/* FIRST SECTION ENDS HERE*/
+
+/* CHARACTER SECTION STARTS HERE*/
+.test-characters-div {
+    background-color: red;
+}
+
+.test-characters-div2 {
+    background-color: yellow;
+}
+
+.uppercase-h1 {
+    text-transform: uppercase;
+}
+
+.characters-section {
+    /* display: flex; */
+    background-color: aqua;
+    /* text-align: center; */
+}
+
+/* CHARACTER ELEMENTS STARTS HERE*/
+
+.miles-morales-div {
+    background-color: red;
+}
+
+.gwen-stacy {
+    background-color: bisque;
+}
+
+.spiderpunk {
+    background-color: brown;
+}
+
+.pavitr {
+    background-color: aquamarine;
+}
+
+/* CHARACTER ELEMENT ENDS HERE*/
+
+/* CHARACTER SECTION ENDS HERE*/
+
+img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50% ;
+    margin: 10px 10px;
+}
+
+/* SECOND SECTION STARTS HERE*/
+
+.second-section {
+    text-align: center;
+    background-color: green; 
+}
+
+/* SECOND SECTION ENDS HERE*/
+
+/* THIRD SECTION STARTS HERE*/
+
+.third-section {
+    text-align: center;
+    background-color: grey;
+}
+
+/* THIRD SECTION ENDS HERE*/
+
+/* FOOTER STARTS HERE*/
+
+footer {
+    text-align: center;
+    background-color: white;
+}
+
+/* FOOTER ENDS HERE*/
