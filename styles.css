@@ -15,3 +15,15 @@
     display: block;
     margin: auto;
 }
+
+.middle-section {
+    text-align:center;
+}
+
+/* img {
+    text-align:center;
+} */
+
+section + h1 {
+    color:skyblue;
+}
