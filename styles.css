@@ -27,3 +27,11 @@
 section + h1 {
     color:skyblue;
 }
+
+.bottom-section {
+    text-align:center;
+}
+
+.miles-morales-figurine:hover {
+    background-color:blue;
+}
