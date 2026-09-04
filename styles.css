@@ -35,3 +35,8 @@ section + h1 {
 .miles-morales-figurine:hover {
     background-color:blue;
 }
+
+table {
+    border-color: black;
+    border-width: 10px;
+}
