@@ -20,6 +20,16 @@
     text-align:center;
 }
 
+.middle-section-button {
+    border-color:blue;
+    width: 1000px;
+    height: 1000px;
+}
+
+.middle-section-button:hover {
+    background-color: rgb(10, 192, 40);
+}
+
 /* img {
     text-align:center;
 } */
@@ -28,9 +38,9 @@ section + h1 {
     color:skyblue;
 }
 
-.bottom-section {
-     text-align:center; 
-}
+/* .bottom-section { */
+     /* text-align:center;  */
+/* } */
 
 .miles-morales-figurine:hover {
     background-color:blue;
