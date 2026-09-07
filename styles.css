@@ -5,6 +5,7 @@
 .top-h1 {
     text-align: center;
     background-color: aquamarine;
+    outline-style: solid;
 }
 
 .top-paragraph {
@@ -35,8 +36,14 @@ section + h1 {
     color:skyblue;
 }
 
-th, table, td {
-    border: 1px dashed gray;
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    border:1px solid grey;
+    padding: 4px;
 }
 
 .miles-morales-figurine:hover {
