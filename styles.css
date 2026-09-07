@@ -32,15 +32,8 @@
     background-color: rgb(10, 192, 40);
 }
 
-a {
-    text-decoration: none;
-    text-transform:uppercase;
-}
-
-p {
-    text-indent: 10px;
-    text-align: center;
-    text-align-last: left;
+.bottom-section {
+    text-align:center;
 }
 
 section + h1 {
@@ -59,4 +52,48 @@ th, td {
 
 .miles-morales-figurine:hover {
     background-color:blue;
+}
+
+.dropdown {
+    position:relative;
+    display:inline-block;
+}
+
+.dropdown-button {
+    background-color: green;
+    color: white;
+    padding: 13px;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.dropdown-button:hover {
+    background-color:black;
+}
+
+.dropdown-menu {
+    display:none;
+    position: absolute;
+    background-color:rgb(188, 126, 224);
+    min-width:150px;
+}
+
+.dropdown-menu a{
+    color:black;
+    padding:11px 15px;
+    text-decoration:none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color:purple;
+}
+
+.dropdown:hover .dropdown-menu {
+    display:block;
+}
+
+.dropdown:hover .dropdown-button {
+    background-color: orange;
 }
