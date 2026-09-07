@@ -32,6 +32,17 @@
     background-color: rgb(10, 192, 40);
 }
 
+a {
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+p {
+    text-indent: 10px;
+    text-align: center;
+    text-align-last: left;
+}
+
 section + h1 {
     color:skyblue;
 }
