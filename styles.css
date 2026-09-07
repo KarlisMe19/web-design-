@@ -31,23 +31,14 @@
     background-color: rgb(10, 192, 40);
 }
 
-/* img {
-    text-align:center;
-} */
-
 section + h1 {
     color:skyblue;
 }
 
-/* .bottom-section { */
-     /* text-align:center;  */
-/* } */
+th, table, td {
+    border: 1px dashed gray;
+}
 
 .miles-morales-figurine:hover {
     background-color:blue;
-}
-
-table {
-    border-color: black;
-    border-width: 10px;
 }
